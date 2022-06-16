@@ -27,11 +27,9 @@ const callSeveralTimes = (i, fn, par) => {
 const iterateThrough = (arr) => {
     for (let index = 0; index < arr.length; index++) {
         if (index > 1) {
-            const selectedRoute = callSeveralTimes(index, findNextRoute, foundHead);
-            sortedRoutes[index] = selectedRoute
+            sortedRoutes[index] = callSeveralTimes(index, findNextRoute, foundHead);
         }
     }
-}
 }
 
 iterateThrough(ROUTES);
