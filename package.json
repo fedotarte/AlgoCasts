@@ -1,0 +1,25 @@
+{
+  "name": "algocasts",
+  "version": "1.0.0",
+  "description": "Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedotarte/AlgoCasts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedotarte/AlgoCasts/issues"
+  },
+  "homepage": "https://github.com/fedotarte/AlgoCasts#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "typescript": "^4.8.3"
+  }
+}

@@ -15,6 +15,22 @@
 //     [11, 16, 15, 6],
 //     [10,  9,  8, 7]]
 
-function matrix(n) {}
+function matrix(n) {
+    let i, j = 0;
+    const matrix = [];
+
+    const firstTraverse = () => {};
+    const secondTraverse = () => {};
+    const thirdTraverse = () => {};
+    const fourthTraverse = () => {};
+
+    for(let i = 0; i < 10; i++) {
+
+    }
+
+    return matrixToFill;
+}
+
+console.log(matrix(2))
 
 module.exports = matrix;

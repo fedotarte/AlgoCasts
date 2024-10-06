@@ -17,6 +17,19 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+function steps(n) {
+    for (let i=1; i<=n;  i++){
+        const initialHash = "#".repeat(i);
+        const concatenated = initialHash
+            .concat(
+                i < n
+                    ? " ".repeat(n-i)
+                    : ""
+            )
+        console.log(concatenated)
+    }
+}
+
+steps(5)
 
 module.exports = steps;

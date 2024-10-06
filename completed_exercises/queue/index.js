@@ -7,7 +7,9 @@
 //     const q = new Queue();
 //     q.add(1);
 //     q.remove(); // returns 1;
-
+/**
+ * add a1, a2 a3 => gets a1, a2, a3
+ */
 class Queue {
   constructor() {
     this.data = [];

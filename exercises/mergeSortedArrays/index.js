@@ -4,6 +4,7 @@
  @param m {number}
  @param nums2 {number[]}
  @param n {number}
+ @returns {void}
  */
 function mergeSortedArrays(nums1, m, nums2, n) {
     let p1 = m-1, p2 = n-1, i = m+n-1;
